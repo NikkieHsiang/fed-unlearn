@@ -41,6 +41,8 @@ def get_args():
     # 只用脚本名（例如 "case0"），避免通过绝对路径调用时把整条路径写进文件名
     case = Path(sys.argv[0]).stem
 
+    onboarding_tag = f"_OB{args.num_onboarding_rounds}" if args.is_onboarding else ""
+
     args.out_file = (
         f"results/{case}_"
         f"{args.dataset}_"
@@ -51,6 +53,7 @@ def get_args():
         f"PR{args.num_post_training_rounds}_"
         f"E{args.local_epochs}_"
         f"LR{args.lr}"
+        f"{onboarding_tag}"
         f".pkl"
     )
 
