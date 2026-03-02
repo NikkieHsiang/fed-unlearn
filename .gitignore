@@ -1,0 +1,10 @@
+__pycache__/
+.idea/
+venv/
+data/
+# model checkpoint
+*.pt
+*.pth
+*.ckpt
+*.bin
+results/
