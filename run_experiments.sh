@@ -15,6 +15,7 @@ python -u run_all_cases.py --cases 0-6 \
     --num_rounds 20 \
     --num_unlearn_rounds 5 \
     --num_post_training_rounds 20 \
+    --is_onboarding true \
     2>&1 | tee "$LOG_DIR/cifar10.log"
 echo "[1/3] CIFAR-10 done"
 
@@ -25,6 +26,7 @@ python -u run_all_cases.py --cases 0-6 \
     --num_rounds 50 \
     --num_unlearn_rounds 5 \
     --num_post_training_rounds 30 \
+    --is_onboarding true \
     2>&1 | tee "$LOG_DIR/cifar100.log"
 echo "[2/3] CIFAR-100 done"
 
@@ -35,6 +37,7 @@ python -u run_all_cases.py --cases 0-6 \
     --num_rounds 10 \
     --num_unlearn_rounds 5 \
     --num_post_training_rounds 10 \
+    --is_onboarding true \
     2>&1 | tee "$LOG_DIR/mnist.log"
 echo "[3/3] MNIST done"
 

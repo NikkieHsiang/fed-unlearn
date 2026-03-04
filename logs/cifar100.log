@@ -1,0 +1,1703 @@
+将依次运行 case: [0, 1, 2, 3, 4, 5, 6]
+附加参数（传递给各个 caseX.py）: ['--dataset', 'cifar100', '--num_rounds', '50', '--num_unlearn_rounds', '5', '--num_post_training_rounds', '30', '--is_onboarding', 'true']
+------------------------------------------------------------
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case0.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+检测到断点，从 round 50 继续训练
+正在补全 round 0–49 的评估数据...
+Global clean accuracy: 0.01
+Global backdoor accuracy: 1.0
+Global clean accuracy: 0.0617
+Global backdoor accuracy: 0.4598
+Global clean accuracy: 0.0642
+Global backdoor accuracy: 0.5371
+Global clean accuracy: 0.0739
+Global backdoor accuracy: 0.2156
+Global clean accuracy: 0.0729
+Global backdoor accuracy: 0.6903
+Global clean accuracy: 0.1784
+Global backdoor accuracy: 0.2558
+Global clean accuracy: 0.2067
+Global backdoor accuracy: 0.1895
+Global clean accuracy: 0.235
+Global backdoor accuracy: 0.1029
+Global clean accuracy: 0.2662
+Global backdoor accuracy: 0.2633
+Global clean accuracy: 0.3392
+Global backdoor accuracy: 0.0731
+Global clean accuracy: 0.3434
+Global backdoor accuracy: 0.1835
+Global clean accuracy: 0.3938
+Global backdoor accuracy: 0.1221
+Global clean accuracy: 0.3733
+Global backdoor accuracy: 0.2791
+Global clean accuracy: 0.3924
+Global backdoor accuracy: 0.1919
+Global clean accuracy: 0.3985
+Global backdoor accuracy: 0.4279
+Global clean accuracy: 0.4154
+Global backdoor accuracy: 0.0974
+Global clean accuracy: 0.3861
+Global backdoor accuracy: 0.5651
+Global clean accuracy: 0.4407
+Global backdoor accuracy: 0.0471
+Global clean accuracy: 0.345
+Global backdoor accuracy: 0.7519
+Global clean accuracy: 0.4201
+Global backdoor accuracy: 0.0065
+Global clean accuracy: 0.1205
+Global backdoor accuracy: 0.9767
+Global clean accuracy: 0.4498
+Global backdoor accuracy: 0.0067
+Global clean accuracy: 0.0176
+Global backdoor accuracy: 0.9993
+Global clean accuracy: 0.4515
+Global backdoor accuracy: 0.008
+Global clean accuracy: 0.0323
+Global backdoor accuracy: 0.997
+Global clean accuracy: 0.4253
+Global backdoor accuracy: 0.0102
+Global clean accuracy: 0.0506
+Global backdoor accuracy: 0.9936
+Global clean accuracy: 0.4358
+Global backdoor accuracy: 0.1216
+Global clean accuracy: 0.369
+Global backdoor accuracy: 0.7979
+Global clean accuracy: 0.429
+Global backdoor accuracy: 0.6986
+Global clean accuracy: 0.4194
+Global backdoor accuracy: 0.7716
+Global clean accuracy: 0.4236
+Global backdoor accuracy: 0.774
+Global clean accuracy: 0.4132
+Global backdoor accuracy: 0.8206
+Global clean accuracy: 0.4156
+Global backdoor accuracy: 0.8206
+Global clean accuracy: 0.4057
+Global backdoor accuracy: 0.8504
+Global clean accuracy: 0.405
+Global backdoor accuracy: 0.8498
+Global clean accuracy: 0.392
+Global backdoor accuracy: 0.8788
+Global clean accuracy: 0.3908
+Global backdoor accuracy: 0.8791
+Global clean accuracy: 0.3866
+Global backdoor accuracy: 0.8868
+Global clean accuracy: 0.3703
+Global backdoor accuracy: 0.91
+Global clean accuracy: 0.3725
+Global backdoor accuracy: 0.9061
+Global clean accuracy: 0.3724
+Global backdoor accuracy: 0.9067
+Global clean accuracy: 0.3568
+Global backdoor accuracy: 0.9261
+Global clean accuracy: 0.3658
+Global backdoor accuracy: 0.9129
+Global clean accuracy: 0.3627
+Global backdoor accuracy: 0.9207
+Global clean accuracy: 0.3553
+Global backdoor accuracy: 0.9228
+Global clean accuracy: 0.3522
+Global backdoor accuracy: 0.9234
+Global clean accuracy: 0.348
+Global backdoor accuracy: 0.9266
+Global clean accuracy: 0.3498
+Global backdoor accuracy: 0.9227
+Global clean accuracy: 0.3402
+Global backdoor accuracy: 0.9272
+Time 5.7220458984375e-06
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case1.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+Round 86/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:29<01:58, 29.55s/it] 40%|████      | 2/5 [00:57<01:26, 28.68s/it] 60%|██████    | 3/5 [01:25<00:56, 28.38s/it] 80%|████████  | 4/5 [01:53<00:28, 28.25s/it]100%|██████████| 5/5 [02:21<00:00, 28.22s/it]100%|██████████| 5/5 [02:21<00:00, 28.37s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.238978 acc: 0.974720
+Global clean accuracy: 0.118
+Global backdoor accuracy: 0.0002
+Round 87/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:53, 28.38s/it] 40%|████      | 2/5 [00:56<01:24, 28.21s/it] 60%|██████    | 3/5 [01:15<00:48, 24.18s/it] 80%|████████  | 4/5 [01:32<00:21, 21.40s/it]100%|██████████| 5/5 [01:51<00:00, 20.23s/it]100%|██████████| 5/5 [01:51<00:00, 22.23s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 1.426991 acc: 0.625820
+Global clean accuracy: 0.4228
+Global backdoor accuracy: 0.0326
+Round 88/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.58s/it] 40%|████      | 2/5 [00:31<00:47, 15.72s/it] 60%|██████    | 3/5 [00:47<00:31, 15.78s/it] 80%|████████  | 4/5 [01:03<00:15, 15.97s/it]100%|██████████| 5/5 [01:19<00:00, 15.93s/it]100%|██████████| 5/5 [01:19<00:00, 15.87s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.452829 acc: 0.891500
+Global clean accuracy: 0.3272
+Global backdoor accuracy: 0.0012
+Round 89/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.70s/it] 40%|████      | 2/5 [00:31<00:48, 16.01s/it] 60%|██████    | 3/5 [00:48<00:32, 16.29s/it] 80%|████████  | 4/5 [01:04<00:16, 16.30s/it]100%|██████████| 5/5 [01:21<00:00, 16.30s/it]100%|██████████| 5/5 [01:21<00:00, 16.23s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.151877 acc: 0.971500
+Global clean accuracy: 0.4051
+Global backdoor accuracy: 0.0758
+Round 90/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.46s/it] 40%|████      | 2/5 [00:32<00:49, 16.39s/it] 60%|██████    | 3/5 [00:49<00:32, 16.38s/it] 80%|████████  | 4/5 [01:05<00:16, 16.45s/it]100%|██████████| 5/5 [01:22<00:00, 16.52s/it]100%|██████████| 5/5 [01:22<00:00, 16.47s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.100337 acc: 0.979500
+Global clean accuracy: 0.414
+Global backdoor accuracy: 0.3721
+Round 91/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.49s/it] 40%|████      | 2/5 [00:32<00:49, 16.47s/it] 60%|██████    | 3/5 [00:49<00:32, 16.43s/it] 80%|████████  | 4/5 [01:05<00:16, 16.42s/it]100%|██████████| 5/5 [01:22<00:00, 16.42s/it]100%|██████████| 5/5 [01:22<00:00, 16.43s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.071586 acc: 0.984580
+Global clean accuracy: 0.4215
+Global backdoor accuracy: 0.4846
+Round 92/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.33s/it] 40%|████      | 2/5 [00:32<00:48, 16.25s/it] 60%|██████    | 3/5 [00:48<00:32, 16.23s/it] 80%|████████  | 4/5 [01:05<00:16, 16.34s/it]100%|██████████| 5/5 [01:21<00:00, 16.43s/it]100%|██████████| 5/5 [01:21<00:00, 16.36s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.060395 acc: 0.987100
+Global clean accuracy: 0.4248
+Global backdoor accuracy: 0.5776
+Round 93/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.38s/it] 40%|████      | 2/5 [00:33<00:50, 16.74s/it] 60%|██████    | 3/5 [00:49<00:33, 16.55s/it] 80%|████████  | 4/5 [01:05<00:16, 16.45s/it]100%|██████████| 5/5 [01:22<00:00, 16.33s/it]100%|██████████| 5/5 [01:22<00:00, 16.42s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.044586 acc: 0.991260
+Global clean accuracy: 0.4204
+Global backdoor accuracy: 0.5992
+Round 94/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.00s/it] 40%|████      | 2/5 [00:32<00:48, 16.05s/it] 60%|██████    | 3/5 [00:48<00:32, 16.13s/it] 80%|████████  | 4/5 [01:04<00:16, 16.21s/it]100%|██████████| 5/5 [01:20<00:00, 16.14s/it]100%|██████████| 5/5 [01:20<00:00, 16.13s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.035488 acc: 0.993300
+Global clean accuracy: 0.4116
+Global backdoor accuracy: 0.6542
+Round 95/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.31s/it] 40%|████      | 2/5 [00:32<00:49, 16.51s/it] 60%|██████    | 3/5 [00:49<00:32, 16.50s/it] 80%|████████  | 4/5 [01:05<00:16, 16.50s/it]100%|██████████| 5/5 [01:22<00:00, 16.48s/it]100%|██████████| 5/5 [01:22<00:00, 16.48s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.021752 acc: 0.996780
+Global clean accuracy: 0.4148
+Global backdoor accuracy: 0.6691
+Round 96/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.59s/it] 40%|████      | 2/5 [00:33<00:49, 16.57s/it] 60%|██████    | 3/5 [00:49<00:33, 16.50s/it] 80%|████████  | 4/5 [01:06<00:16, 16.56s/it]100%|██████████| 5/5 [01:22<00:00, 16.53s/it]100%|██████████| 5/5 [01:22<00:00, 16.54s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.022334 acc: 0.996240
+Global clean accuracy: 0.4055
+Global backdoor accuracy: 0.6994
+Round 97/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.26s/it] 40%|████      | 2/5 [00:32<00:48, 16.24s/it] 60%|██████    | 3/5 [00:48<00:32, 16.32s/it] 80%|████████  | 4/5 [01:05<00:16, 16.26s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.016952 acc: 0.997180
+Global clean accuracy: 0.4099
+Global backdoor accuracy: 0.6876
+Round 98/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.25s/it] 40%|████      | 2/5 [00:32<00:48, 16.23s/it] 60%|██████    | 3/5 [00:48<00:32, 16.22s/it] 80%|████████  | 4/5 [01:04<00:16, 16.22s/it]100%|██████████| 5/5 [01:21<00:00, 16.21s/it]100%|██████████| 5/5 [01:21<00:00, 16.22s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.016313 acc: 0.997560
+Global clean accuracy: 0.4027
+Global backdoor accuracy: 0.7441
+Round 99/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.20s/it] 40%|████      | 2/5 [00:32<00:48, 16.21s/it] 60%|██████    | 3/5 [00:48<00:32, 16.19s/it] 80%|████████  | 4/5 [01:04<00:16, 16.18s/it]100%|██████████| 5/5 [01:20<00:00, 16.18s/it]100%|██████████| 5/5 [01:20<00:00, 16.19s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.012834 acc: 0.997940
+Global clean accuracy: 0.4044
+Global backdoor accuracy: 0.7142
+Round 100/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.44s/it] 40%|████      | 2/5 [00:32<00:48, 16.30s/it] 60%|██████    | 3/5 [00:48<00:32, 16.25s/it] 80%|████████  | 4/5 [01:05<00:16, 16.23s/it]100%|██████████| 5/5 [01:21<00:00, 16.23s/it]100%|██████████| 5/5 [01:21<00:00, 16.25s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.012472 acc: 0.997780
+Global clean accuracy: 0.3845
+Global backdoor accuracy: 0.8024
+Round 101/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.19s/it] 40%|████      | 2/5 [00:32<00:48, 16.19s/it] 60%|██████    | 3/5 [00:48<00:32, 16.24s/it] 80%|████████  | 4/5 [01:05<00:16, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.39s/it]100%|██████████| 5/5 [01:21<00:00, 16.32s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.011268 acc: 0.998360
+Global clean accuracy: 0.4014
+Global backdoor accuracy: 0.7199
+Round 102/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:25<01:43, 25.82s/it] 40%|████      | 2/5 [00:56<01:25, 28.49s/it] 60%|██████    | 3/5 [01:26<00:58, 29.40s/it] 80%|████████  | 4/5 [01:56<00:29, 29.73s/it]100%|██████████| 5/5 [02:27<00:00, 29.93s/it]100%|██████████| 5/5 [02:27<00:00, 29.44s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.015153 acc: 0.997240
+Global clean accuracy: 0.3801
+Global backdoor accuracy: 0.8271
+Round 103/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.27s/it] 40%|████      | 2/5 [01:00<01:30, 30.16s/it] 60%|██████    | 3/5 [01:30<01:00, 30.15s/it] 80%|████████  | 4/5 [01:58<00:29, 29.34s/it]100%|██████████| 5/5 [02:15<00:00, 24.72s/it]100%|██████████| 5/5 [02:15<00:00, 27.02s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.010382 acc: 0.998600
+Global clean accuracy: 0.4003
+Global backdoor accuracy: 0.7077
+Round 104/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.29s/it] 40%|████      | 2/5 [00:32<00:48, 16.25s/it] 60%|██████    | 3/5 [00:48<00:32, 16.22s/it] 80%|████████  | 4/5 [01:04<00:16, 16.21s/it]100%|██████████| 5/5 [01:21<00:00, 16.22s/it]100%|██████████| 5/5 [01:21<00:00, 16.22s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.012566 acc: 0.997840
+Global clean accuracy: 0.3764
+Global backdoor accuracy: 0.8358
+Round 105/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.18s/it] 40%|████      | 2/5 [00:32<00:48, 16.21s/it] 60%|██████    | 3/5 [00:48<00:32, 16.22s/it] 80%|████████  | 4/5 [01:04<00:16, 16.22s/it]100%|██████████| 5/5 [01:21<00:00, 16.31s/it]100%|██████████| 5/5 [01:21<00:00, 16.27s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.010040 acc: 0.998640
+Global clean accuracy: 0.3919
+Global backdoor accuracy: 0.7693
+Round 106/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.24s/it] 40%|████      | 2/5 [00:32<00:48, 16.21s/it] 60%|██████    | 3/5 [00:49<00:33, 16.80s/it] 80%|████████  | 4/5 [01:17<00:21, 21.05s/it]100%|██████████| 5/5 [01:46<00:00, 23.82s/it]100%|██████████| 5/5 [01:46<00:00, 21.24s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.008206 acc: 0.998680
+Global clean accuracy: 0.3621
+Global backdoor accuracy: 0.8635
+Round 107/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:55, 28.80s/it] 40%|████      | 2/5 [00:57<01:25, 28.56s/it] 60%|██████    | 3/5 [01:25<00:56, 28.49s/it] 80%|████████  | 4/5 [01:54<00:28, 28.67s/it]100%|██████████| 5/5 [02:23<00:00, 28.61s/it]100%|██████████| 5/5 [02:23<00:00, 28.61s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.006431 acc: 0.999140
+Global clean accuracy: 0.387
+Global backdoor accuracy: 0.7957
+Round 108/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:55, 28.77s/it] 40%|████      | 2/5 [00:57<01:25, 28.61s/it] 60%|██████    | 3/5 [01:25<00:56, 28.48s/it] 80%|████████  | 4/5 [01:54<00:28, 28.65s/it]100%|██████████| 5/5 [02:22<00:00, 28.58s/it]100%|██████████| 5/5 [02:22<00:00, 28.60s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.006072 acc: 0.999120
+Global clean accuracy: 0.3572
+Global backdoor accuracy: 0.8695
+Round 109/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:27<01:49, 27.33s/it] 40%|████      | 2/5 [00:44<01:03, 21.14s/it] 60%|██████    | 3/5 [01:00<00:38, 19.01s/it] 80%|████████  | 4/5 [01:16<00:17, 17.94s/it]100%|██████████| 5/5 [01:33<00:00, 17.38s/it]100%|██████████| 5/5 [01:33<00:00, 18.66s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.005010 acc: 0.999420
+Global clean accuracy: 0.3779
+Global backdoor accuracy: 0.8345
+Round 110/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:17<01:10, 17.57s/it] 40%|████      | 2/5 [00:45<01:10, 23.40s/it] 60%|██████    | 3/5 [01:13<00:51, 25.77s/it] 80%|████████  | 4/5 [01:42<00:27, 27.07s/it]100%|██████████| 5/5 [02:11<00:00, 27.62s/it]100%|██████████| 5/5 [02:11<00:00, 26.26s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004738 acc: 0.999520
+Global clean accuracy: 0.352
+Global backdoor accuracy: 0.8799
+Round 111/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:55, 28.77s/it] 40%|████      | 2/5 [00:57<01:26, 28.89s/it] 60%|██████    | 3/5 [01:27<00:58, 29.35s/it] 80%|████████  | 4/5 [01:56<00:29, 29.01s/it]100%|██████████| 5/5 [02:24<00:00, 28.87s/it]100%|██████████| 5/5 [02:24<00:00, 28.95s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004287 acc: 0.999600
+Global clean accuracy: 0.3727
+Global backdoor accuracy: 0.8426
+Round 112/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:29<01:56, 29.08s/it] 40%|████      | 2/5 [00:57<01:26, 28.77s/it] 60%|██████    | 3/5 [01:26<00:57, 28.92s/it] 80%|████████  | 4/5 [01:55<00:28, 28.83s/it]100%|██████████| 5/5 [02:19<00:00, 26.95s/it]100%|██████████| 5/5 [02:19<00:00, 27.81s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004837 acc: 0.999360
+Global clean accuracy: 0.3463
+Global backdoor accuracy: 0.8909
+Round 113/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.45s/it] 40%|████      | 2/5 [00:33<00:49, 16.56s/it] 60%|██████    | 3/5 [00:49<00:32, 16.42s/it] 80%|████████  | 4/5 [01:05<00:16, 16.34s/it]100%|██████████| 5/5 [01:22<00:00, 16.65s/it]100%|██████████| 5/5 [01:22<00:00, 16.55s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003893 acc: 0.999700
+Global clean accuracy: 0.3609
+Global backdoor accuracy: 0.8729
+Round 114/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:52, 28.24s/it] 40%|████      | 2/5 [00:56<01:25, 28.35s/it] 60%|██████    | 3/5 [01:25<00:57, 28.59s/it] 80%|████████  | 4/5 [01:54<00:28, 28.70s/it]100%|██████████| 5/5 [02:22<00:00, 28.60s/it]100%|██████████| 5/5 [02:22<00:00, 28.56s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003864 acc: 0.999620
+Global clean accuracy: 0.3451
+Global backdoor accuracy: 0.8945
+Round 115/115: lr 0.01 results/case1_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:55, 28.90s/it] 40%|████      | 2/5 [00:57<01:25, 28.66s/it] 60%|██████    | 3/5 [01:25<00:57, 28.54s/it] 80%|████████  | 4/5 [01:54<00:28, 28.54s/it]100%|██████████| 5/5 [02:23<00:00, 28.66s/it]100%|██████████| 5/5 [02:23<00:00, 28.64s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003278 acc: 0.999780
+Global clean accuracy: 0.338
+Global backdoor accuracy: 0.8991
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case2.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+Round 86/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.39s/it] 40%|████      | 2/5 [00:49<01:10, 23.60s/it] 60%|██████    | 3/5 [01:05<00:40, 20.17s/it] 80%|████████  | 4/5 [01:21<00:18, 18.53s/it]100%|██████████| 5/5 [01:37<00:00, 17.66s/it]100%|██████████| 5/5 [01:37<00:00, 19.49s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.005523 acc: 0.999260
+Global clean accuracy: 0.3415
+Global backdoor accuracy: 0.9033
+Round 87/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.56s/it] 40%|████      | 2/5 [00:37<00:57, 19.28s/it] 60%|██████    | 3/5 [01:05<00:46, 23.37s/it] 80%|████████  | 4/5 [01:34<00:25, 25.27s/it]100%|██████████| 5/5 [02:02<00:00, 26.34s/it]100%|██████████| 5/5 [02:02<00:00, 24.48s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001861 acc: 0.999900
+Global clean accuracy: 0.3425
+Global backdoor accuracy: 0.9334
+Round 88/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:54, 28.55s/it] 40%|████      | 2/5 [00:56<01:24, 28.31s/it] 60%|██████    | 3/5 [01:24<00:56, 28.21s/it] 80%|████████  | 4/5 [01:53<00:28, 28.28s/it]100%|██████████| 5/5 [02:21<00:00, 28.27s/it]100%|██████████| 5/5 [02:21<00:00, 28.29s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001684 acc: 0.999960
+Global clean accuracy: 0.3239
+Global backdoor accuracy: 0.9413
+Round 89/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:28<01:54, 28.51s/it] 40%|████      | 2/5 [00:56<01:25, 28.43s/it] 60%|██████    | 3/5 [01:25<00:56, 28.36s/it] 80%|████████  | 4/5 [01:53<00:28, 28.35s/it]100%|██████████| 5/5 [02:22<00:00, 28.51s/it]100%|██████████| 5/5 [02:22<00:00, 28.46s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001510 acc: 1.000000
+Global clean accuracy: 0.3205
+Global backdoor accuracy: 0.9414
+Round 90/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:17<01:11, 17.80s/it] 40%|████      | 2/5 [00:36<00:55, 18.51s/it] 60%|██████    | 3/5 [00:56<00:37, 18.96s/it] 80%|████████  | 4/5 [01:15<00:18, 18.92s/it]100%|██████████| 5/5 [01:31<00:00, 18.10s/it]100%|██████████| 5/5 [01:31<00:00, 18.36s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001532 acc: 1.000000
+Global clean accuracy: 0.3228
+Global backdoor accuracy: 0.9382
+Round 91/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:07, 16.81s/it] 40%|████      | 2/5 [00:35<00:53, 17.72s/it] 60%|██████    | 3/5 [01:03<00:45, 22.59s/it] 80%|████████  | 4/5 [01:33<00:25, 25.39s/it]100%|██████████| 5/5 [02:03<00:00, 27.12s/it]100%|██████████| 5/5 [02:03<00:00, 24.68s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001364 acc: 0.999980
+Global clean accuracy: 0.3218
+Global backdoor accuracy: 0.937
+Round 92/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.06s/it] 40%|████      | 2/5 [01:00<01:30, 30.17s/it] 60%|██████    | 3/5 [01:30<01:00, 30.22s/it] 80%|████████  | 4/5 [02:00<00:30, 30.22s/it]100%|██████████| 5/5 [02:30<00:00, 30.14s/it]100%|██████████| 5/5 [02:30<00:00, 30.16s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001328 acc: 1.000000
+Global clean accuracy: 0.3206
+Global backdoor accuracy: 0.9367
+Round 93/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:19<01:16, 19.21s/it] 40%|████      | 2/5 [00:36<00:54, 18.03s/it] 60%|██████    | 3/5 [00:53<00:35, 17.83s/it] 80%|████████  | 4/5 [01:10<00:17, 17.35s/it]100%|██████████| 5/5 [01:27<00:00, 17.09s/it]100%|██████████| 5/5 [01:27<00:00, 17.45s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001332 acc: 1.000000
+Global clean accuracy: 0.3209
+Global backdoor accuracy: 0.9356
+Round 94/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:18<01:14, 18.75s/it] 40%|████      | 2/5 [00:48<01:16, 25.44s/it] 60%|██████    | 3/5 [01:19<00:55, 27.67s/it] 80%|████████  | 4/5 [01:49<00:28, 28.70s/it]100%|██████████| 5/5 [02:19<00:00, 29.36s/it]100%|██████████| 5/5 [02:19<00:00, 28.00s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001286 acc: 0.999980
+Global clean accuracy: 0.3191
+Global backdoor accuracy: 0.935
+Round 95/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:02, 30.74s/it] 40%|████      | 2/5 [01:01<01:32, 30.84s/it] 60%|██████    | 3/5 [01:32<01:01, 30.88s/it] 80%|████████  | 4/5 [02:03<00:30, 30.85s/it]100%|██████████| 5/5 [02:25<00:00, 27.69s/it]100%|██████████| 5/5 [02:25<00:00, 29.09s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001203 acc: 1.000000
+Global clean accuracy: 0.3187
+Global backdoor accuracy: 0.9355
+Round 96/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.67s/it] 40%|████      | 2/5 [00:32<00:49, 16.44s/it] 60%|██████    | 3/5 [00:49<00:32, 16.31s/it] 80%|████████  | 4/5 [01:05<00:16, 16.28s/it]100%|██████████| 5/5 [01:24<00:00, 17.36s/it]100%|██████████| 5/5 [01:24<00:00, 16.92s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001248 acc: 1.000000
+Global clean accuracy: 0.3218
+Global backdoor accuracy: 0.9341
+Round 97/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.15s/it] 40%|████      | 2/5 [01:00<01:31, 30.34s/it] 60%|██████    | 3/5 [01:31<01:00, 30.41s/it] 80%|████████  | 4/5 [02:01<00:30, 30.36s/it]100%|██████████| 5/5 [02:32<00:00, 30.46s/it]100%|██████████| 5/5 [02:32<00:00, 30.41s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001170 acc: 1.000000
+Global clean accuracy: 0.3181
+Global backdoor accuracy: 0.9353
+Round 98/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.43s/it] 40%|████      | 2/5 [01:00<01:31, 30.45s/it] 60%|██████    | 3/5 [01:31<01:00, 30.47s/it] 80%|████████  | 4/5 [01:52<00:26, 26.60s/it]100%|██████████| 5/5 [02:08<00:00, 23.02s/it]100%|██████████| 5/5 [02:08<00:00, 25.75s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001203 acc: 1.000000
+Global clean accuracy: 0.3175
+Global backdoor accuracy: 0.9348
+Round 99/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.16s/it] 40%|████      | 2/5 [00:32<00:48, 16.02s/it] 60%|██████    | 3/5 [00:47<00:31, 15.94s/it] 80%|████████  | 4/5 [01:03<00:15, 15.91s/it]100%|██████████| 5/5 [01:19<00:00, 16.00s/it]100%|██████████| 5/5 [01:19<00:00, 15.99s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001097 acc: 1.000000
+Global clean accuracy: 0.3185
+Global backdoor accuracy: 0.935
+Round 100/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.86s/it] 40%|████      | 2/5 [00:32<00:48, 16.05s/it] 60%|██████    | 3/5 [00:47<00:31, 15.98s/it] 80%|████████  | 4/5 [01:04<00:16, 16.03s/it]100%|██████████| 5/5 [01:20<00:00, 16.03s/it]100%|██████████| 5/5 [01:20<00:00, 16.01s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001118 acc: 1.000000
+Global clean accuracy: 0.3159
+Global backdoor accuracy: 0.935
+Round 101/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.16s/it] 40%|████      | 2/5 [00:32<00:48, 16.12s/it] 60%|██████    | 3/5 [00:48<00:32, 16.08s/it] 80%|████████  | 4/5 [01:04<00:16, 16.08s/it]100%|██████████| 5/5 [01:20<00:00, 16.07s/it]100%|██████████| 5/5 [01:20<00:00, 16.08s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001105 acc: 1.000000
+Global clean accuracy: 0.3176
+Global backdoor accuracy: 0.9339
+Round 102/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.14s/it] 40%|████      | 2/5 [00:32<00:48, 16.13s/it] 60%|██████    | 3/5 [00:48<00:32, 16.13s/it] 80%|████████  | 4/5 [01:04<00:16, 16.13s/it]100%|██████████| 5/5 [01:20<00:00, 16.10s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001089 acc: 1.000000
+Global clean accuracy: 0.3209
+Global backdoor accuracy: 0.9336
+Round 103/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.03s/it] 40%|████      | 2/5 [00:32<00:48, 16.04s/it] 60%|██████    | 3/5 [00:48<00:32, 16.02s/it] 80%|████████  | 4/5 [01:04<00:16, 16.04s/it]100%|██████████| 5/5 [01:20<00:00, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.06s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001012 acc: 1.000000
+Global clean accuracy: 0.3179
+Global backdoor accuracy: 0.9339
+Round 104/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.04s/it] 40%|████      | 2/5 [00:32<00:48, 16.04s/it] 60%|██████    | 3/5 [00:48<00:32, 16.05s/it] 80%|████████  | 4/5 [01:04<00:16, 16.07s/it]100%|██████████| 5/5 [01:20<00:00, 16.04s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001218 acc: 0.999980
+Global clean accuracy: 0.3155
+Global backdoor accuracy: 0.9364
+Round 105/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.96s/it] 40%|████      | 2/5 [00:31<00:47, 15.93s/it] 60%|██████    | 3/5 [00:47<00:31, 15.91s/it] 80%|████████  | 4/5 [01:03<00:15, 15.94s/it]100%|██████████| 5/5 [01:19<00:00, 15.95s/it]100%|██████████| 5/5 [01:19<00:00, 15.94s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001029 acc: 1.000000
+Global clean accuracy: 0.3172
+Global backdoor accuracy: 0.9342
+Round 106/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.99s/it] 40%|████      | 2/5 [00:31<00:47, 15.99s/it] 60%|██████    | 3/5 [00:47<00:31, 15.98s/it] 80%|████████  | 4/5 [01:03<00:15, 15.99s/it]100%|██████████| 5/5 [01:19<00:00, 15.99s/it]100%|██████████| 5/5 [01:19<00:00, 15.99s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001007 acc: 1.000000
+Global clean accuracy: 0.3155
+Global backdoor accuracy: 0.9351
+Round 107/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.96s/it] 40%|████      | 2/5 [00:31<00:47, 15.95s/it] 60%|██████    | 3/5 [00:47<00:31, 15.96s/it] 80%|████████  | 4/5 [01:03<00:15, 15.97s/it]100%|██████████| 5/5 [01:19<00:00, 15.97s/it]100%|██████████| 5/5 [01:19<00:00, 15.97s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000967 acc: 1.000000
+Global clean accuracy: 0.3178
+Global backdoor accuracy: 0.933
+Round 108/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.99s/it] 40%|████      | 2/5 [00:32<00:48, 16.14s/it] 60%|██████    | 3/5 [00:48<00:32, 16.18s/it] 80%|████████  | 4/5 [01:04<00:16, 16.10s/it]100%|██████████| 5/5 [01:20<00:00, 16.04s/it]100%|██████████| 5/5 [01:20<00:00, 16.07s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000979 acc: 1.000000
+Global clean accuracy: 0.3169
+Global backdoor accuracy: 0.934
+Round 109/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.93s/it] 40%|████      | 2/5 [00:32<00:48, 16.02s/it] 60%|██████    | 3/5 [00:47<00:31, 15.97s/it] 80%|████████  | 4/5 [01:03<00:15, 15.94s/it]100%|██████████| 5/5 [01:19<00:00, 15.93s/it]100%|██████████| 5/5 [01:19<00:00, 15.95s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000935 acc: 1.000000
+Global clean accuracy: 0.3147
+Global backdoor accuracy: 0.9356
+Round 110/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.96s/it] 40%|████      | 2/5 [00:31<00:47, 15.92s/it] 60%|██████    | 3/5 [00:47<00:31, 15.94s/it] 80%|████████  | 4/5 [01:03<00:15, 15.97s/it]100%|██████████| 5/5 [01:19<00:00, 15.95s/it]100%|██████████| 5/5 [01:19<00:00, 15.95s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000957 acc: 1.000000
+Global clean accuracy: 0.3145
+Global backdoor accuracy: 0.9352
+Round 111/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.89s/it] 40%|████      | 2/5 [00:31<00:47, 15.92s/it] 60%|██████    | 3/5 [00:47<00:31, 15.94s/it] 80%|████████  | 4/5 [01:03<00:15, 15.95s/it]100%|██████████| 5/5 [01:19<00:00, 15.96s/it]100%|██████████| 5/5 [01:19<00:00, 15.95s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000926 acc: 1.000000
+Global clean accuracy: 0.3179
+Global backdoor accuracy: 0.9353
+Round 112/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.16s/it] 40%|████      | 2/5 [00:32<00:48, 16.12s/it] 60%|██████    | 3/5 [00:48<00:32, 16.10s/it] 80%|████████  | 4/5 [01:04<00:16, 16.14s/it]100%|██████████| 5/5 [01:20<00:00, 16.20s/it]100%|██████████| 5/5 [01:20<00:00, 16.17s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000943 acc: 1.000000
+Global clean accuracy: 0.312
+Global backdoor accuracy: 0.9364
+Round 113/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.96s/it] 40%|████      | 2/5 [00:31<00:47, 15.98s/it] 60%|██████    | 3/5 [00:47<00:31, 15.99s/it] 80%|████████  | 4/5 [01:04<00:16, 16.14s/it]100%|██████████| 5/5 [01:20<00:00, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.07s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000912 acc: 1.000000
+Global clean accuracy: 0.3129
+Global backdoor accuracy: 0.9358
+Round 114/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.10s/it] 40%|████      | 2/5 [00:32<00:48, 16.12s/it] 60%|██████    | 3/5 [00:48<00:32, 16.11s/it] 80%|████████  | 4/5 [01:04<00:16, 16.12s/it]100%|██████████| 5/5 [01:20<00:00, 16.13s/it]100%|██████████| 5/5 [01:20<00:00, 16.13s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000882 acc: 1.000000
+Global clean accuracy: 0.3135
+Global backdoor accuracy: 0.9364
+Round 115/115: lr 0.01 results/case2_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.10s/it] 40%|████      | 2/5 [00:32<00:48, 16.07s/it] 60%|██████    | 3/5 [00:47<00:31, 15.97s/it] 80%|████████  | 4/5 [01:03<00:15, 15.91s/it]100%|██████████| 5/5 [01:19<00:00, 15.90s/it]100%|██████████| 5/5 [01:19<00:00, 15.94s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000862 acc: 1.000000
+Global clean accuracy: 0.3135
+Global backdoor accuracy: 0.9366
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case3.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+Round 86/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.71s/it] 40%|████      | 2/5 [00:32<00:48, 16.28s/it] 60%|██████    | 3/5 [00:48<00:32, 16.17s/it] 80%|████████  | 4/5 [01:04<00:15, 16.00s/it]100%|██████████| 5/5 [01:20<00:00, 16.02s/it]100%|██████████| 5/5 [01:20<00:00, 16.10s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.158703 acc: 0.975920
+Global clean accuracy: 0.1089
+Global backdoor accuracy: 0.9375
+Round 87/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.63s/it] 40%|████      | 2/5 [00:31<00:46, 15.58s/it] 60%|██████    | 3/5 [00:46<00:31, 15.62s/it] 80%|████████  | 4/5 [01:02<00:15, 15.61s/it]100%|██████████| 5/5 [01:17<00:00, 15.54s/it]100%|██████████| 5/5 [01:17<00:00, 15.57s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.470026 acc: 0.869200
+Global clean accuracy: 0.4119
+Global backdoor accuracy: 0.0186
+Round 88/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.52s/it] 40%|████      | 2/5 [00:31<00:47, 15.74s/it] 60%|██████    | 3/5 [00:47<00:31, 15.84s/it] 80%|████████  | 4/5 [01:02<00:15, 15.74s/it]100%|██████████| 5/5 [01:19<00:00, 15.85s/it]100%|██████████| 5/5 [01:19<00:00, 15.80s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.092332 acc: 0.982800
+Global clean accuracy: 0.2338
+Global backdoor accuracy: 0.9162
+Round 89/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.70s/it] 40%|████      | 2/5 [00:31<00:46, 15.61s/it] 60%|██████    | 3/5 [00:46<00:31, 15.52s/it] 80%|████████  | 4/5 [01:02<00:15, 15.74s/it]100%|██████████| 5/5 [01:18<00:00, 15.75s/it]100%|██████████| 5/5 [01:18<00:00, 15.70s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.013138 acc: 0.998360
+Global clean accuracy: 0.413
+Global backdoor accuracy: 0.743
+Round 90/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.70s/it] 40%|████      | 2/5 [00:31<00:48, 16.05s/it] 60%|██████    | 3/5 [00:48<00:32, 16.06s/it] 80%|████████  | 4/5 [01:04<00:16, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.08s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.010186 acc: 0.998400
+Global clean accuracy: 0.3931
+Global backdoor accuracy: 0.8469
+Round 91/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.16s/it] 40%|████      | 2/5 [00:32<00:48, 16.16s/it] 60%|██████    | 3/5 [00:48<00:32, 16.12s/it] 80%|████████  | 4/5 [01:04<00:16, 16.10s/it]100%|██████████| 5/5 [01:20<00:00, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.005533 acc: 0.999540
+Global clean accuracy: 0.3788
+Global backdoor accuracy: 0.8864
+Round 92/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.12s/it] 40%|████      | 2/5 [00:32<00:48, 16.17s/it] 60%|██████    | 3/5 [00:48<00:32, 16.16s/it] 80%|████████  | 4/5 [01:04<00:16, 16.12s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004541 acc: 0.999600
+Global clean accuracy: 0.3712
+Global backdoor accuracy: 0.9024
+Round 93/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.08s/it] 40%|████      | 2/5 [00:32<00:48, 16.07s/it] 60%|██████    | 3/5 [00:48<00:32, 16.08s/it] 80%|████████  | 4/5 [01:04<00:16, 16.17s/it]100%|██████████| 5/5 [01:20<00:00, 16.16s/it]100%|██████████| 5/5 [01:20<00:00, 16.14s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004137 acc: 0.999740
+Global clean accuracy: 0.3609
+Global backdoor accuracy: 0.9118
+Round 94/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.22s/it] 40%|████      | 2/5 [00:32<00:48, 16.24s/it] 60%|██████    | 3/5 [00:48<00:32, 16.25s/it] 80%|████████  | 4/5 [01:04<00:16, 16.23s/it]100%|██████████| 5/5 [01:20<00:00, 16.17s/it]100%|██████████| 5/5 [01:20<00:00, 16.20s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003593 acc: 0.999780
+Global clean accuracy: 0.352
+Global backdoor accuracy: 0.9213
+Round 95/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.99s/it] 40%|████      | 2/5 [00:31<00:47, 15.95s/it] 60%|██████    | 3/5 [00:47<00:31, 15.95s/it] 80%|████████  | 4/5 [01:04<00:16, 16.04s/it]100%|██████████| 5/5 [01:20<00:00, 16.22s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002959 acc: 0.999820
+Global clean accuracy: 0.3421
+Global backdoor accuracy: 0.9292
+Round 96/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.28s/it] 40%|████      | 2/5 [00:32<00:48, 16.19s/it] 60%|██████    | 3/5 [00:48<00:32, 16.24s/it] 80%|████████  | 4/5 [01:04<00:16, 16.20s/it]100%|██████████| 5/5 [01:20<00:00, 16.18s/it]100%|██████████| 5/5 [01:20<00:00, 16.20s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002838 acc: 0.999920
+Global clean accuracy: 0.3288
+Global backdoor accuracy: 0.9357
+Round 97/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.05s/it] 40%|████      | 2/5 [00:32<00:48, 16.20s/it] 60%|██████    | 3/5 [00:48<00:32, 16.25s/it] 80%|████████  | 4/5 [01:04<00:16, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.29s/it]100%|██████████| 5/5 [01:21<00:00, 16.26s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002473 acc: 0.999940
+Global clean accuracy: 0.3273
+Global backdoor accuracy: 0.9344
+Round 98/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.25s/it] 40%|████      | 2/5 [00:32<00:48, 16.26s/it] 60%|██████    | 3/5 [00:48<00:32, 16.28s/it] 80%|████████  | 4/5 [01:05<00:16, 16.29s/it]100%|██████████| 5/5 [01:21<00:00, 16.16s/it]100%|██████████| 5/5 [01:21<00:00, 16.21s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002366 acc: 0.999940
+Global clean accuracy: 0.3328
+Global backdoor accuracy: 0.9317
+Round 99/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.95s/it] 40%|████      | 2/5 [00:31<00:47, 15.92s/it] 60%|██████    | 3/5 [00:47<00:31, 15.96s/it] 80%|████████  | 4/5 [01:04<00:16, 16.03s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002027 acc: 1.000000
+Global clean accuracy: 0.3284
+Global backdoor accuracy: 0.9297
+Round 100/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.04s/it] 40%|████      | 2/5 [00:32<00:48, 16.02s/it] 60%|██████    | 3/5 [00:48<00:32, 16.05s/it] 80%|████████  | 4/5 [01:04<00:16, 16.07s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002140 acc: 0.999980
+Global clean accuracy: 0.3229
+Global backdoor accuracy: 0.9334
+Round 101/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.21s/it] 40%|████      | 2/5 [00:32<00:48, 16.15s/it] 60%|██████    | 3/5 [00:48<00:32, 16.09s/it] 80%|████████  | 4/5 [01:04<00:16, 16.24s/it]100%|██████████| 5/5 [01:21<00:00, 16.32s/it]100%|██████████| 5/5 [01:21<00:00, 16.25s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001998 acc: 0.999940
+Global clean accuracy: 0.3287
+Global backdoor accuracy: 0.9286
+Round 102/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.21s/it] 40%|████      | 2/5 [00:32<00:48, 16.18s/it] 60%|██████    | 3/5 [00:48<00:32, 16.27s/it] 80%|████████  | 4/5 [01:04<00:16, 16.26s/it]100%|██████████| 5/5 [01:20<00:00, 16.17s/it]100%|██████████| 5/5 [01:20<00:00, 16.20s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001794 acc: 0.999980
+Global clean accuracy: 0.3253
+Global backdoor accuracy: 0.9308
+Round 103/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.49s/it] 40%|████      | 2/5 [00:33<00:49, 16.63s/it] 60%|██████    | 3/5 [00:49<00:33, 16.51s/it] 80%|████████  | 4/5 [01:05<00:16, 16.34s/it]100%|██████████| 5/5 [01:21<00:00, 16.25s/it]100%|██████████| 5/5 [01:21<00:00, 16.35s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001704 acc: 0.999980
+Global clean accuracy: 0.3224
+Global backdoor accuracy: 0.9319
+Round 104/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.35s/it] 40%|████      | 2/5 [00:32<00:48, 16.27s/it] 60%|██████    | 3/5 [00:48<00:32, 16.21s/it] 80%|████████  | 4/5 [01:04<00:16, 16.21s/it]100%|██████████| 5/5 [01:21<00:00, 16.32s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002088 acc: 0.999980
+Global clean accuracy: 0.3243
+Global backdoor accuracy: 0.9298
+Round 105/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.12s/it] 40%|████      | 2/5 [00:32<00:48, 16.08s/it] 60%|██████    | 3/5 [00:48<00:32, 16.05s/it] 80%|████████  | 4/5 [01:04<00:16, 16.07s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]100%|██████████| 5/5 [01:20<00:00, 16.10s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001574 acc: 1.000000
+Global clean accuracy: 0.3199
+Global backdoor accuracy: 0.9323
+Round 106/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.69s/it] 40%|████      | 2/5 [00:32<00:49, 16.40s/it] 60%|██████    | 3/5 [00:49<00:32, 16.46s/it] 80%|████████  | 4/5 [01:05<00:16, 16.34s/it]100%|██████████| 5/5 [01:21<00:00, 16.25s/it]100%|██████████| 5/5 [01:21<00:00, 16.33s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001482 acc: 1.000000
+Global clean accuracy: 0.3214
+Global backdoor accuracy: 0.9312
+Round 107/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.04s/it] 40%|████      | 2/5 [00:32<00:48, 16.11s/it] 60%|██████    | 3/5 [00:48<00:32, 16.08s/it] 80%|████████  | 4/5 [01:04<00:16, 16.12s/it]100%|██████████| 5/5 [01:20<00:00, 16.16s/it]100%|██████████| 5/5 [01:20<00:00, 16.13s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001426 acc: 0.999980
+Global clean accuracy: 0.3213
+Global backdoor accuracy: 0.9285
+Round 108/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.46s/it] 40%|████      | 2/5 [00:32<00:49, 16.48s/it] 60%|██████    | 3/5 [00:49<00:32, 16.45s/it] 80%|████████  | 4/5 [01:05<00:16, 16.45s/it]100%|██████████| 5/5 [01:22<00:00, 16.48s/it]100%|██████████| 5/5 [01:22<00:00, 16.47s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001393 acc: 1.000000
+Global clean accuracy: 0.3229
+Global backdoor accuracy: 0.928
+Round 109/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.11s/it] 40%|████      | 2/5 [00:32<00:48, 16.19s/it] 60%|██████    | 3/5 [00:48<00:32, 16.23s/it] 80%|████████  | 4/5 [01:04<00:16, 16.22s/it]100%|██████████| 5/5 [01:21<00:00, 16.20s/it]100%|██████████| 5/5 [01:21<00:00, 16.20s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001347 acc: 1.000000
+Global clean accuracy: 0.3196
+Global backdoor accuracy: 0.9298
+Round 110/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.27s/it] 40%|████      | 2/5 [00:32<00:48, 16.32s/it] 60%|██████    | 3/5 [00:48<00:32, 16.32s/it] 80%|████████  | 4/5 [01:05<00:16, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.29s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001330 acc: 1.000000
+Global clean accuracy: 0.3195
+Global backdoor accuracy: 0.9295
+Round 111/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.11s/it] 40%|████      | 2/5 [00:32<00:48, 16.21s/it] 60%|██████    | 3/5 [00:48<00:32, 16.15s/it] 80%|████████  | 4/5 [01:04<00:16, 16.14s/it]100%|██████████| 5/5 [01:20<00:00, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001262 acc: 1.000000
+Global clean accuracy: 0.3216
+Global backdoor accuracy: 0.9296
+Round 112/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.05s/it] 40%|████      | 2/5 [00:32<00:48, 16.07s/it] 60%|██████    | 3/5 [00:48<00:32, 16.04s/it] 80%|████████  | 4/5 [01:04<00:16, 16.08s/it]100%|██████████| 5/5 [01:20<00:00, 16.17s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001257 acc: 1.000000
+Global clean accuracy: 0.3185
+Global backdoor accuracy: 0.9312
+Round 113/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.35s/it] 40%|████      | 2/5 [00:32<00:48, 16.20s/it] 60%|██████    | 3/5 [00:48<00:32, 16.11s/it] 80%|████████  | 4/5 [01:04<00:16, 16.04s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]100%|██████████| 5/5 [01:20<00:00, 16.09s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001255 acc: 1.000000
+Global clean accuracy: 0.3185
+Global backdoor accuracy: 0.9313
+Round 114/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.94s/it] 40%|████      | 2/5 [00:31<00:47, 15.98s/it] 60%|██████    | 3/5 [00:48<00:32, 16.07s/it] 80%|████████  | 4/5 [01:04<00:16, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]100%|██████████| 5/5 [01:20<00:00, 16.08s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001170 acc: 1.000000
+Global clean accuracy: 0.3179
+Global backdoor accuracy: 0.9311
+Round 115/115: lr 0.01 results/case3_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.25s/it] 40%|████      | 2/5 [00:32<00:48, 16.30s/it] 60%|██████    | 3/5 [00:49<00:32, 16.40s/it] 80%|████████  | 4/5 [01:05<00:16, 16.32s/it]100%|██████████| 5/5 [01:21<00:00, 16.23s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001124 acc: 1.000000
+Global clean accuracy: 0.319
+Global backdoor accuracy: 0.9313
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case4.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+Round 86/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.68s/it] 40%|████      | 2/5 [00:32<00:48, 16.25s/it] 60%|██████    | 3/5 [00:48<00:32, 16.06s/it] 80%|████████  | 4/5 [01:03<00:15, 15.83s/it]100%|██████████| 5/5 [01:19<00:00, 15.69s/it]100%|██████████| 5/5 [01:19<00:00, 15.88s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.236068 acc: 0.974500
+Global clean accuracy: 0.2012
+Global backdoor accuracy: 0.0009
+Round 87/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.61s/it] 40%|████      | 2/5 [00:31<00:46, 15.57s/it] 60%|██████    | 3/5 [00:46<00:31, 15.57s/it] 80%|████████  | 4/5 [01:02<00:15, 15.57s/it]100%|██████████| 5/5 [01:17<00:00, 15.54s/it]100%|██████████| 5/5 [01:17<00:00, 15.55s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.808005 acc: 0.781480
+Global clean accuracy: 0.4145
+Global backdoor accuracy: 0.0195
+Round 88/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.52s/it] 40%|████      | 2/5 [00:31<00:46, 15.54s/it] 60%|██████    | 3/5 [00:47<00:31, 15.80s/it] 80%|████████  | 4/5 [01:03<00:15, 15.83s/it]100%|██████████| 5/5 [01:18<00:00, 15.83s/it]100%|██████████| 5/5 [01:18<00:00, 15.78s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.264571 acc: 0.950840
+Global clean accuracy: 0.3052
+Global backdoor accuracy: 0.0117
+Round 89/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.51s/it] 40%|████      | 2/5 [00:30<00:46, 15.48s/it] 60%|██████    | 3/5 [00:46<00:30, 15.45s/it] 80%|████████  | 4/5 [01:02<00:15, 15.58s/it]100%|██████████| 5/5 [01:17<00:00, 15.57s/it]100%|██████████| 5/5 [01:17<00:00, 15.54s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.161161 acc: 0.969560
+Global clean accuracy: 0.4355
+Global backdoor accuracy: 0.0121
+Round 90/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.39s/it] 40%|████      | 2/5 [00:30<00:46, 15.43s/it] 60%|██████    | 3/5 [00:46<00:30, 15.44s/it] 80%|████████  | 4/5 [01:01<00:15, 15.44s/it]100%|██████████| 5/5 [01:17<00:00, 15.53s/it]100%|██████████| 5/5 [01:17<00:00, 15.48s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.124144 acc: 0.977180
+Global clean accuracy: 0.3087
+Global backdoor accuracy: 0.5355
+Round 91/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.84s/it] 40%|████      | 2/5 [00:31<00:47, 15.92s/it] 60%|██████    | 3/5 [00:47<00:31, 15.75s/it] 80%|████████  | 4/5 [01:03<00:15, 15.72s/it]100%|██████████| 5/5 [01:18<00:00, 15.73s/it]100%|██████████| 5/5 [01:18<00:00, 15.76s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.266771 acc: 0.938160
+Global clean accuracy: 0.4179
+Global backdoor accuracy: 0.0101
+Round 92/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:02, 15.51s/it] 40%|████      | 2/5 [00:30<00:46, 15.44s/it] 60%|██████    | 3/5 [00:46<00:30, 15.48s/it] 80%|████████  | 4/5 [01:02<00:15, 15.60s/it]100%|██████████| 5/5 [01:17<00:00, 15.55s/it]100%|██████████| 5/5 [01:17<00:00, 15.54s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.154413 acc: 0.975680
+Global clean accuracy: 0.2855
+Global backdoor accuracy: 0.5967
+Round 93/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.39s/it] 40%|████      | 2/5 [00:31<00:46, 15.57s/it] 60%|██████    | 3/5 [00:46<00:31, 15.56s/it] 80%|████████  | 4/5 [01:02<00:15, 15.58s/it]100%|██████████| 5/5 [01:17<00:00, 15.62s/it]100%|██████████| 5/5 [01:17<00:00, 15.59s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.329542 acc: 0.915180
+Global clean accuracy: 0.4159
+Global backdoor accuracy: 0.0114
+Round 94/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.42s/it] 40%|████      | 2/5 [00:30<00:46, 15.49s/it] 60%|██████    | 3/5 [00:46<00:30, 15.49s/it] 80%|████████  | 4/5 [01:01<00:15, 15.46s/it]100%|██████████| 5/5 [01:18<00:00, 15.72s/it]100%|██████████| 5/5 [01:18<00:00, 15.61s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.170343 acc: 0.974620
+Global clean accuracy: 0.2185
+Global backdoor accuracy: 0.7706
+Round 95/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:03, 15.84s/it] 40%|████      | 2/5 [00:32<00:48, 16.11s/it] 60%|██████    | 3/5 [00:47<00:31, 15.98s/it] 80%|████████  | 4/5 [01:03<00:15, 15.98s/it]100%|██████████| 5/5 [01:20<00:00, 16.21s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.303512 acc: 0.921400
+Global clean accuracy: 0.3994
+Global backdoor accuracy: 0.0113
+Round 96/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.03s/it] 40%|████      | 2/5 [00:32<00:48, 16.31s/it] 60%|██████    | 3/5 [00:49<00:33, 16.55s/it] 80%|████████  | 4/5 [01:06<00:16, 16.62s/it]100%|██████████| 5/5 [01:22<00:00, 16.62s/it]100%|██████████| 5/5 [01:22<00:00, 16.54s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.189545 acc: 0.974720
+Global clean accuracy: 0.1185
+Global backdoor accuracy: 0.966
+Round 97/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.59s/it] 40%|████      | 2/5 [00:33<00:49, 16.53s/it] 60%|██████    | 3/5 [00:49<00:33, 16.51s/it] 80%|████████  | 4/5 [01:06<00:16, 16.55s/it]100%|██████████| 5/5 [01:22<00:00, 16.62s/it]100%|██████████| 5/5 [01:22<00:00, 16.58s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.246456 acc: 0.939300
+Global clean accuracy: 0.4197
+Global backdoor accuracy: 0.0093
+Round 98/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.66s/it] 40%|████      | 2/5 [00:33<00:49, 16.63s/it] 60%|██████    | 3/5 [00:49<00:33, 16.56s/it] 80%|████████  | 4/5 [01:06<00:16, 16.48s/it]100%|██████████| 5/5 [01:22<00:00, 16.45s/it]100%|██████████| 5/5 [01:22<00:00, 16.50s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.165345 acc: 0.975280
+Global clean accuracy: 0.1308
+Global backdoor accuracy: 0.9226
+Round 99/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.47s/it] 40%|████      | 2/5 [00:32<00:49, 16.45s/it] 60%|██████    | 3/5 [00:49<00:33, 16.53s/it] 80%|████████  | 4/5 [01:06<00:16, 16.80s/it]100%|██████████| 5/5 [01:24<00:00, 17.23s/it]100%|██████████| 5/5 [01:24<00:00, 16.95s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.076610 acc: 0.984140
+Global clean accuracy: 0.4255
+Global backdoor accuracy: 0.0142
+Round 100/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:29<01:59, 29.87s/it] 40%|████      | 2/5 [01:00<01:30, 30.06s/it] 60%|██████    | 3/5 [01:29<00:59, 29.94s/it] 80%|████████  | 4/5 [01:59<00:29, 29.96s/it]100%|██████████| 5/5 [02:29<00:00, 30.00s/it]100%|██████████| 5/5 [02:29<00:00, 29.99s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.125638 acc: 0.976920
+Global clean accuracy: 0.1362
+Global backdoor accuracy: 0.9686
+Round 101/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.14s/it] 40%|████      | 2/5 [01:00<01:30, 30.17s/it] 60%|██████    | 3/5 [01:30<01:00, 30.16s/it] 80%|████████  | 4/5 [02:00<00:30, 30.17s/it]100%|██████████| 5/5 [02:30<00:00, 30.15s/it]100%|██████████| 5/5 [02:30<00:00, 30.15s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.060385 acc: 0.988020
+Global clean accuracy: 0.4181
+Global backdoor accuracy: 0.0069
+Round 102/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.11s/it] 40%|████      | 2/5 [00:59<01:29, 29.94s/it] 60%|██████    | 3/5 [01:16<00:47, 23.71s/it] 80%|████████  | 4/5 [01:32<00:20, 20.80s/it]100%|██████████| 5/5 [01:48<00:00, 19.18s/it]100%|██████████| 5/5 [01:48<00:00, 21.78s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.106178 acc: 0.978660
+Global clean accuracy: 0.1436
+Global backdoor accuracy: 0.9555
+Round 103/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.29s/it] 40%|████      | 2/5 [00:34<00:51, 17.14s/it] 60%|██████    | 3/5 [00:58<00:40, 20.36s/it] 80%|████████  | 4/5 [01:27<00:24, 24.06s/it]100%|██████████| 5/5 [01:57<00:00, 26.22s/it]100%|██████████| 5/5 [01:57<00:00, 23.60s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.024377 acc: 0.995280
+Global clean accuracy: 0.4192
+Global backdoor accuracy: 0.2353
+Round 104/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.11s/it] 40%|████      | 2/5 [01:00<01:30, 30.13s/it] 60%|██████    | 3/5 [01:30<01:00, 30.06s/it] 80%|████████  | 4/5 [02:00<00:30, 30.21s/it]100%|██████████| 5/5 [02:30<00:00, 30.15s/it]100%|██████████| 5/5 [02:30<00:00, 30.14s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.037211 acc: 0.991820
+Global clean accuracy: 0.3718
+Global backdoor accuracy: 0.7819
+Round 105/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.31s/it] 40%|████      | 2/5 [01:00<01:30, 30.22s/it] 60%|██████    | 3/5 [01:30<01:00, 30.16s/it] 80%|████████  | 4/5 [02:00<00:30, 30.22s/it]100%|██████████| 5/5 [02:30<00:00, 30.18s/it]100%|██████████| 5/5 [02:30<00:00, 30.20s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.012202 acc: 0.997680
+Global clean accuracy: 0.4025
+Global backdoor accuracy: 0.7526
+Round 106/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.11s/it] 40%|████      | 2/5 [01:00<01:30, 30.13s/it] 60%|██████    | 3/5 [01:30<00:59, 29.97s/it] 80%|████████  | 4/5 [02:00<00:30, 30.11s/it]100%|██████████| 5/5 [02:30<00:00, 30.08s/it]100%|██████████| 5/5 [02:30<00:00, 30.08s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.009637 acc: 0.998100
+Global clean accuracy: 0.3979
+Global backdoor accuracy: 0.7925
+Round 107/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.32s/it] 40%|████      | 2/5 [01:00<01:30, 30.18s/it] 60%|██████    | 3/5 [01:30<01:00, 30.14s/it] 80%|████████  | 4/5 [02:00<00:30, 30.25s/it]100%|██████████| 5/5 [02:31<00:00, 30.22s/it]100%|██████████| 5/5 [02:31<00:00, 30.21s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.007384 acc: 0.998640
+Global clean accuracy: 0.3874
+Global backdoor accuracy: 0.8125
+Round 108/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.08s/it] 40%|████      | 2/5 [01:00<01:30, 30.20s/it] 60%|██████    | 3/5 [01:30<01:00, 30.18s/it] 80%|████████  | 4/5 [02:00<00:30, 30.17s/it]100%|██████████| 5/5 [02:30<00:00, 30.22s/it]100%|██████████| 5/5 [02:30<00:00, 30.20s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.006388 acc: 0.998940
+Global clean accuracy: 0.3722
+Global backdoor accuracy: 0.8457
+Round 109/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.19s/it] 40%|████      | 2/5 [01:00<01:30, 30.17s/it] 60%|██████    | 3/5 [01:30<01:00, 30.29s/it] 80%|████████  | 4/5 [02:00<00:30, 30.23s/it]100%|██████████| 5/5 [02:31<00:00, 30.23s/it]100%|██████████| 5/5 [02:31<00:00, 30.23s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004698 acc: 0.999540
+Global clean accuracy: 0.3687
+Global backdoor accuracy: 0.8569
+Round 110/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.25s/it] 40%|████      | 2/5 [01:00<01:30, 30.32s/it] 60%|██████    | 3/5 [01:30<01:00, 30.23s/it] 80%|████████  | 4/5 [02:00<00:30, 30.16s/it]100%|██████████| 5/5 [02:31<00:00, 30.19s/it]100%|██████████| 5/5 [02:31<00:00, 30.21s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004289 acc: 0.999540
+Global clean accuracy: 0.3699
+Global backdoor accuracy: 0.8596
+Round 111/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.01s/it] 40%|████      | 2/5 [01:00<01:30, 30.23s/it] 60%|██████    | 3/5 [01:30<01:00, 30.20s/it] 80%|████████  | 4/5 [02:00<00:30, 30.19s/it]100%|██████████| 5/5 [02:30<00:00, 30.16s/it]100%|██████████| 5/5 [02:30<00:00, 30.16s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003922 acc: 0.999600
+Global clean accuracy: 0.3638
+Global backdoor accuracy: 0.8671
+Round 112/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.21s/it] 40%|████      | 2/5 [01:00<01:30, 30.30s/it] 60%|██████    | 3/5 [01:30<01:00, 30.33s/it] 80%|████████  | 4/5 [02:01<00:30, 30.28s/it]100%|██████████| 5/5 [02:31<00:00, 30.29s/it]100%|██████████| 5/5 [02:31<00:00, 30.29s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003911 acc: 0.999680
+Global clean accuracy: 0.347
+Global backdoor accuracy: 0.8873
+Round 113/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.20s/it] 40%|████      | 2/5 [01:00<01:30, 30.22s/it] 60%|██████    | 3/5 [01:30<01:00, 30.23s/it] 80%|████████  | 4/5 [02:01<00:30, 30.27s/it]100%|██████████| 5/5 [02:31<00:00, 30.26s/it]100%|██████████| 5/5 [02:31<00:00, 30.25s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003138 acc: 0.999760
+Global clean accuracy: 0.3423
+Global backdoor accuracy: 0.8858
+Round 114/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:00, 30.21s/it] 40%|████      | 2/5 [01:00<01:30, 30.15s/it] 60%|██████    | 3/5 [01:30<01:00, 30.19s/it] 80%|████████  | 4/5 [02:00<00:30, 30.25s/it]100%|██████████| 5/5 [02:31<00:00, 30.22s/it]100%|██████████| 5/5 [02:31<00:00, 30.22s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003047 acc: 0.999800
+Global clean accuracy: 0.3392
+Global backdoor accuracy: 0.8888
+Round 115/115: lr 0.01 results/case4_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:30<02:01, 30.39s/it] 40%|████      | 2/5 [01:00<01:30, 30.25s/it] 60%|██████    | 3/5 [01:31<01:00, 30.37s/it] 80%|████████  | 4/5 [02:01<00:30, 30.32s/it]100%|██████████| 5/5 [02:31<00:00, 30.29s/it]100%|██████████| 5/5 [02:31<00:00, 30.31s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002614 acc: 0.999840
+Global clean accuracy: 0.3355
+Global backdoor accuracy: 0.8954
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case5.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+Round 86/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:32<02:11, 32.87s/it] 40%|████      | 2/5 [01:02<01:32, 30.98s/it] 60%|██████    | 3/5 [01:32<01:00, 30.44s/it] 80%|████████  | 4/5 [01:52<00:26, 26.30s/it]100%|██████████| 5/5 [02:08<00:00, 22.75s/it]100%|██████████| 5/5 [02:08<00:00, 25.75s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.055492 acc: 0.988440
+Global clean accuracy: 0.4185
+Global backdoor accuracy: 0.4982
+Round 87/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:06, 16.63s/it] 40%|████      | 2/5 [00:33<00:49, 16.60s/it] 60%|██████    | 3/5 [00:49<00:33, 16.60s/it] 80%|████████  | 4/5 [01:06<00:16, 16.61s/it]100%|██████████| 5/5 [01:22<00:00, 16.59s/it]100%|██████████| 5/5 [01:22<00:00, 16.60s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.011217 acc: 0.998300
+Global clean accuracy: 0.4123
+Global backdoor accuracy: 0.6815
+Round 88/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:07, 16.76s/it] 40%|████      | 2/5 [00:33<00:49, 16.66s/it] 60%|██████    | 3/5 [00:49<00:33, 16.55s/it] 80%|████████  | 4/5 [01:06<00:16, 16.65s/it]100%|██████████| 5/5 [01:23<00:00, 16.76s/it]100%|██████████| 5/5 [01:23<00:00, 16.70s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.004400 acc: 0.999840
+Global clean accuracy: 0.3864
+Global backdoor accuracy: 0.826
+Round 89/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.49s/it] 40%|████      | 2/5 [00:33<00:49, 16.55s/it] 60%|██████    | 3/5 [00:49<00:33, 16.55s/it] 80%|████████  | 4/5 [01:06<00:16, 16.52s/it]100%|██████████| 5/5 [01:22<00:00, 16.54s/it]100%|██████████| 5/5 [01:22<00:00, 16.53s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.003294 acc: 0.999880
+Global clean accuracy: 0.3669
+Global backdoor accuracy: 0.8671
+Round 90/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.43s/it] 40%|████      | 2/5 [00:32<00:49, 16.40s/it] 60%|██████    | 3/5 [00:49<00:32, 16.40s/it] 80%|████████  | 4/5 [01:05<00:16, 16.40s/it]100%|██████████| 5/5 [01:22<00:00, 16.42s/it]100%|██████████| 5/5 [01:22<00:00, 16.41s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002988 acc: 0.999920
+Global clean accuracy: 0.3611
+Global backdoor accuracy: 0.8784
+Round 91/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.45s/it] 40%|████      | 2/5 [00:32<00:49, 16.45s/it] 60%|██████    | 3/5 [00:49<00:32, 16.44s/it] 80%|████████  | 4/5 [01:05<00:16, 16.44s/it]100%|██████████| 5/5 [01:22<00:00, 16.44s/it]100%|██████████| 5/5 [01:22<00:00, 16.44s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002443 acc: 0.999980
+Global clean accuracy: 0.3472
+Global backdoor accuracy: 0.8997
+Round 92/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.33s/it] 40%|████      | 2/5 [00:32<00:48, 16.33s/it] 60%|██████    | 3/5 [00:49<00:32, 16.39s/it] 80%|████████  | 4/5 [01:05<00:16, 16.43s/it]100%|██████████| 5/5 [01:21<00:00, 16.35s/it]100%|██████████| 5/5 [01:21<00:00, 16.37s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002308 acc: 1.000000
+Global clean accuracy: 0.3369
+Global backdoor accuracy: 0.9107
+Round 93/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.17s/it] 40%|████      | 2/5 [00:32<00:48, 16.08s/it] 60%|██████    | 3/5 [00:48<00:32, 16.07s/it] 80%|████████  | 4/5 [01:04<00:15, 15.96s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002214 acc: 1.000000
+Global clean accuracy: 0.3263
+Global backdoor accuracy: 0.9165
+Round 94/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.18s/it] 40%|████      | 2/5 [00:32<00:48, 16.11s/it] 60%|██████    | 3/5 [00:48<00:32, 16.10s/it] 80%|████████  | 4/5 [01:03<00:15, 15.93s/it]100%|██████████| 5/5 [01:19<00:00, 15.81s/it]100%|██████████| 5/5 [01:19<00:00, 15.92s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.002046 acc: 0.999960
+Global clean accuracy: 0.3257
+Global backdoor accuracy: 0.9194
+Round 95/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.43s/it] 40%|████      | 2/5 [00:32<00:49, 16.51s/it] 60%|██████    | 3/5 [00:49<00:32, 16.47s/it] 80%|████████  | 4/5 [01:05<00:16, 16.42s/it]100%|██████████| 5/5 [01:21<00:00, 16.34s/it]100%|██████████| 5/5 [01:21<00:00, 16.39s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001772 acc: 1.000000
+Global clean accuracy: 0.3162
+Global backdoor accuracy: 0.9268
+Round 96/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.23s/it] 40%|████      | 2/5 [00:32<00:48, 16.24s/it] 60%|██████    | 3/5 [00:48<00:32, 16.27s/it] 80%|████████  | 4/5 [01:04<00:16, 16.22s/it]100%|██████████| 5/5 [01:21<00:00, 16.18s/it]100%|██████████| 5/5 [01:21<00:00, 16.21s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001777 acc: 0.999980
+Global clean accuracy: 0.3102
+Global backdoor accuracy: 0.9306
+Round 97/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.06s/it] 40%|████      | 2/5 [00:32<00:48, 16.08s/it] 60%|██████    | 3/5 [00:48<00:32, 16.05s/it] 80%|████████  | 4/5 [01:04<00:16, 16.05s/it]100%|██████████| 5/5 [01:20<00:00, 16.02s/it]100%|██████████| 5/5 [01:20<00:00, 16.03s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001635 acc: 1.000000
+Global clean accuracy: 0.3096
+Global backdoor accuracy: 0.9326
+Round 98/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.31s/it] 40%|████      | 2/5 [00:32<00:49, 16.40s/it] 60%|██████    | 3/5 [00:49<00:32, 16.43s/it] 80%|████████  | 4/5 [01:05<00:16, 16.35s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.32s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001646 acc: 1.000000
+Global clean accuracy: 0.3076
+Global backdoor accuracy: 0.9336
+Round 99/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.27s/it] 40%|████      | 2/5 [00:32<00:48, 16.18s/it] 60%|██████    | 3/5 [00:48<00:32, 16.31s/it] 80%|████████  | 4/5 [01:05<00:16, 16.36s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.29s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001447 acc: 1.000000
+Global clean accuracy: 0.3046
+Global backdoor accuracy: 0.9358
+Round 100/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.07s/it] 40%|████      | 2/5 [00:32<00:48, 16.02s/it] 60%|██████    | 3/5 [00:48<00:32, 16.13s/it] 80%|████████  | 4/5 [01:04<00:16, 16.16s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]100%|██████████| 5/5 [01:20<00:00, 16.11s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001448 acc: 1.000000
+Global clean accuracy: 0.3023
+Global backdoor accuracy: 0.9364
+Round 101/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.06s/it] 40%|████      | 2/5 [00:32<00:48, 16.26s/it] 60%|██████    | 3/5 [00:48<00:32, 16.33s/it] 80%|████████  | 4/5 [01:04<00:16, 16.23s/it]100%|██████████| 5/5 [01:21<00:00, 16.28s/it]100%|██████████| 5/5 [01:21<00:00, 16.26s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001438 acc: 1.000000
+Global clean accuracy: 0.3029
+Global backdoor accuracy: 0.9349
+Round 102/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.30s/it] 40%|████      | 2/5 [00:32<00:48, 16.22s/it] 60%|██████    | 3/5 [00:48<00:32, 16.17s/it] 80%|████████  | 4/5 [01:04<00:16, 16.19s/it]100%|██████████| 5/5 [01:20<00:00, 16.17s/it]100%|██████████| 5/5 [01:20<00:00, 16.19s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001387 acc: 1.000000
+Global clean accuracy: 0.3026
+Global backdoor accuracy: 0.9372
+Round 103/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.11s/it] 40%|████      | 2/5 [00:32<00:48, 16.10s/it] 60%|██████    | 3/5 [00:48<00:32, 16.08s/it] 80%|████████  | 4/5 [01:04<00:16, 16.07s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]100%|██████████| 5/5 [01:20<00:00, 16.07s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001250 acc: 1.000000
+Global clean accuracy: 0.3007
+Global backdoor accuracy: 0.9384
+Round 104/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.25s/it] 40%|████      | 2/5 [00:32<00:49, 16.47s/it] 60%|██████    | 3/5 [00:49<00:32, 16.46s/it] 80%|████████  | 4/5 [01:05<00:16, 16.36s/it]100%|██████████| 5/5 [01:21<00:00, 16.29s/it]100%|██████████| 5/5 [01:21<00:00, 16.34s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001299 acc: 1.000000
+Global clean accuracy: 0.2964
+Global backdoor accuracy: 0.9396
+Round 105/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.07s/it] 40%|████      | 2/5 [00:32<00:48, 16.11s/it] 60%|██████    | 3/5 [00:48<00:32, 16.13s/it] 80%|████████  | 4/5 [01:04<00:16, 16.13s/it]100%|██████████| 5/5 [01:20<00:00, 16.13s/it]100%|██████████| 5/5 [01:20<00:00, 16.12s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001208 acc: 1.000000
+Global clean accuracy: 0.2946
+Global backdoor accuracy: 0.9399
+Round 106/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.01s/it] 40%|████      | 2/5 [00:32<00:48, 16.00s/it] 60%|██████    | 3/5 [00:47<00:31, 16.00s/it] 80%|████████  | 4/5 [01:04<00:16, 16.10s/it]100%|██████████| 5/5 [01:20<00:00, 16.06s/it]100%|██████████| 5/5 [01:20<00:00, 16.05s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001193 acc: 1.000000
+Global clean accuracy: 0.2948
+Global backdoor accuracy: 0.9391
+Round 107/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.24s/it] 40%|████      | 2/5 [00:32<00:48, 16.22s/it] 60%|██████    | 3/5 [00:48<00:32, 16.25s/it] 80%|████████  | 4/5 [01:04<00:16, 16.22s/it]100%|██████████| 5/5 [01:21<00:00, 16.19s/it]100%|██████████| 5/5 [01:21<00:00, 16.21s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001132 acc: 1.000000
+Global clean accuracy: 0.2953
+Global backdoor accuracy: 0.9388
+Round 108/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.15s/it] 40%|████      | 2/5 [00:32<00:48, 16.21s/it] 60%|██████    | 3/5 [00:48<00:32, 16.22s/it] 80%|████████  | 4/5 [01:04<00:16, 16.24s/it]100%|██████████| 5/5 [01:21<00:00, 16.52s/it]100%|██████████| 5/5 [01:21<00:00, 16.38s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001127 acc: 1.000000
+Global clean accuracy: 0.2919
+Global backdoor accuracy: 0.9409
+Round 109/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.32s/it] 40%|████      | 2/5 [00:32<00:49, 16.38s/it] 60%|██████    | 3/5 [00:48<00:32, 16.30s/it] 80%|████████  | 4/5 [01:05<00:16, 16.33s/it]100%|██████████| 5/5 [01:21<00:00, 16.39s/it]100%|██████████| 5/5 [01:21<00:00, 16.36s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001066 acc: 1.000000
+Global clean accuracy: 0.2879
+Global backdoor accuracy: 0.9429
+Round 110/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.14s/it] 40%|████      | 2/5 [00:32<00:48, 16.29s/it] 60%|██████    | 3/5 [00:49<00:33, 16.55s/it] 80%|████████  | 4/5 [01:05<00:16, 16.56s/it]100%|██████████| 5/5 [01:22<00:00, 16.51s/it]100%|██████████| 5/5 [01:22<00:00, 16.48s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001079 acc: 1.000000
+Global clean accuracy: 0.2892
+Global backdoor accuracy: 0.9416
+Round 111/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:07, 16.79s/it] 40%|████      | 2/5 [00:33<00:50, 16.80s/it] 60%|██████    | 3/5 [00:50<00:33, 16.74s/it] 80%|████████  | 4/5 [01:06<00:16, 16.68s/it]100%|██████████| 5/5 [01:23<00:00, 16.63s/it]100%|██████████| 5/5 [01:23<00:00, 16.68s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001039 acc: 1.000000
+Global clean accuracy: 0.2913
+Global backdoor accuracy: 0.9417
+Round 112/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.30s/it] 40%|████      | 2/5 [00:32<00:48, 16.17s/it] 60%|██████    | 3/5 [00:48<00:32, 16.18s/it] 80%|████████  | 4/5 [01:04<00:16, 16.14s/it]100%|██████████| 5/5 [01:20<00:00, 16.09s/it]100%|██████████| 5/5 [01:20<00:00, 16.13s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001063 acc: 1.000000
+Global clean accuracy: 0.2853
+Global backdoor accuracy: 0.9441
+Round 113/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.27s/it] 40%|████      | 2/5 [00:32<00:48, 16.29s/it] 60%|██████    | 3/5 [00:49<00:32, 16.48s/it] 80%|████████  | 4/5 [01:05<00:16, 16.42s/it]100%|██████████| 5/5 [01:22<00:00, 16.46s/it]100%|██████████| 5/5 [01:22<00:00, 16.43s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.001023 acc: 1.000000
+Global clean accuracy: 0.2883
+Global backdoor accuracy: 0.9428
+Round 114/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:05, 16.32s/it] 40%|████      | 2/5 [00:32<00:48, 16.26s/it] 60%|██████    | 3/5 [00:48<00:32, 16.22s/it] 80%|████████  | 4/5 [01:04<00:16, 16.24s/it]100%|██████████| 5/5 [01:21<00:00, 16.25s/it]100%|██████████| 5/5 [01:21<00:00, 16.25s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000966 acc: 1.000000
+Global clean accuracy: 0.2853
+Global backdoor accuracy: 0.9439
+Round 115/115: lr 0.01 results/case5_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:16<01:04, 16.16s/it] 40%|████      | 2/5 [00:32<00:48, 16.15s/it] 60%|██████    | 3/5 [00:48<00:32, 16.16s/it] 80%|████████  | 4/5 [01:04<00:16, 16.14s/it]100%|██████████| 5/5 [01:20<00:00, 16.17s/it]100%|██████████| 5/5 [01:20<00:00, 16.16s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.000935 acc: 1.000000
+Global clean accuracy: 0.2856
+Global backdoor accuracy: 0.9442
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case6.py --dataset cifar100 --num_rounds 50 --num_unlearn_rounds 5 --num_post_training_rounds 30 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Files already downloaded and verified
+Files already downloaded and verified
+Round 86/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:17<01:11, 17.83s/it] 40%|████      | 2/5 [00:33<00:49, 16.44s/it] 60%|██████    | 3/5 [00:48<00:32, 16.03s/it] 80%|████████  | 4/5 [01:04<00:15, 15.72s/it]100%|██████████| 5/5 [01:19<00:00, 15.73s/it]100%|██████████| 5/5 [01:19<00:00, 15.97s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.161085 acc: 0.975260
+Global clean accuracy: 0.1284
+Global backdoor accuracy: 0.9315
+Round 87/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.32s/it] 40%|████      | 2/5 [00:30<00:46, 15.53s/it] 60%|██████    | 3/5 [00:46<00:30, 15.46s/it] 80%|████████  | 4/5 [01:01<00:15, 15.35s/it]100%|██████████| 5/5 [01:16<00:00, 15.34s/it]100%|██████████| 5/5 [01:16<00:00, 15.37s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.631186 acc: 0.820220
+Global clean accuracy: 0.4299
+Global backdoor accuracy: 0.0071
+Round 88/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.36s/it] 40%|████      | 2/5 [00:31<00:46, 15.66s/it] 60%|██████    | 3/5 [00:47<00:32, 16.02s/it] 80%|████████  | 4/5 [01:03<00:15, 15.99s/it]100%|██████████| 5/5 [01:19<00:00, 15.78s/it]100%|██████████| 5/5 [01:19<00:00, 15.80s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.215791 acc: 0.970000
+Global clean accuracy: 0.0133
+Global backdoor accuracy: 1.0
+Round 89/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.29s/it] 40%|████      | 2/5 [00:30<00:45, 15.25s/it] 60%|██████    | 3/5 [00:45<00:30, 15.28s/it] 80%|████████  | 4/5 [01:01<00:15, 15.46s/it]100%|██████████| 5/5 [01:16<00:00, 15.43s/it]100%|██████████| 5/5 [01:16<00:00, 15.39s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.126700 acc: 0.971560
+Global clean accuracy: 0.4296
+Global backdoor accuracy: 0.0086
+Round 90/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:00, 15.20s/it] 40%|████      | 2/5 [00:30<00:45, 15.15s/it] 60%|██████    | 3/5 [00:45<00:30, 15.21s/it] 80%|████████  | 4/5 [01:00<00:15, 15.27s/it]100%|██████████| 5/5 [01:16<00:00, 15.32s/it]100%|██████████| 5/5 [01:16<00:00, 15.27s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.155628 acc: 0.975860
+Global clean accuracy: 0.0348
+Global backdoor accuracy: 0.9987
+Round 91/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:15<01:01, 15.44s/it] 40%|████      | 2/5 [00:31<00:46, 15.62s/it] 60%|██████    | 3/5 [00:46<00:31, 15.62s/it] 80%|████████  | 4/5 [01:02<00:15, 15.55s/it]100%|██████████| 5/5 [01:17<00:00, 15.55s/it]100%|██████████| 5/5 [01:17<00:00, 15.56s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.024788 acc: 0.996560
+Global clean accuracy: 0.4243
+Global backdoor accuracy: 0.6072
+Round 92/115: lr 0.01 results/case6_cifar100_C5_BS128_R50_UR5_PR30_E1_LR0.01_OB30.pkl
+  0%|          | 0/5 [00:00<?, ?it/s]

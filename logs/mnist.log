@@ -1,0 +1,121 @@
+将依次运行 case: [0, 1, 2, 3, 4, 5, 6]
+附加参数（传递给各个 caseX.py）: ['--dataset', 'mnist', '--num_rounds', '10', '--num_unlearn_rounds', '5', '--num_post_training_rounds', '10', '--is_onboarding', 'true']
+------------------------------------------------------------
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case0.py --dataset mnist --num_rounds 10 --num_unlearn_rounds 5 --num_post_training_rounds 10 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Round 1/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:02<00:11,  2.87s/it] 40%|████      | 2/5 [00:04<00:06,  2.25s/it] 60%|██████    | 3/5 [00:06<00:04,  2.07s/it] 80%|████████  | 4/5 [00:08<00:01,  1.98s/it]100%|██████████| 5/5 [00:10<00:00,  1.93s/it]100%|██████████| 5/5 [00:10<00:00,  2.04s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 1.185481 acc: 0.668417
+Global clean accuracy: 0.694
+Global backdoor accuracy: 0.4076
+Round 2/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.83s/it] 40%|████      | 2/5 [00:03<00:05,  1.84s/it] 60%|██████    | 3/5 [00:05<00:03,  1.83s/it] 80%|████████  | 4/5 [00:07<00:01,  1.83s/it]100%|██████████| 5/5 [00:09<00:00,  1.83s/it]100%|██████████| 5/5 [00:09<00:00,  1.83s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.337734 acc: 0.899183
+Global clean accuracy: 0.9133
+Global backdoor accuracy: 0.1891
+Round 3/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.82s/it] 40%|████      | 2/5 [00:03<00:05,  1.82s/it] 60%|██████    | 3/5 [00:05<00:03,  1.85s/it] 80%|████████  | 4/5 [00:07<00:01,  1.87s/it]100%|██████████| 5/5 [00:09<00:00,  1.87s/it]100%|██████████| 5/5 [00:09<00:00,  1.86s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.236657 acc: 0.932950
+Global clean accuracy: 0.8968
+Global backdoor accuracy: 0.3139
+Round 4/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.82s/it] 40%|████      | 2/5 [00:03<00:05,  1.83s/it] 60%|██████    | 3/5 [00:05<00:03,  1.83s/it] 80%|████████  | 4/5 [00:07<00:01,  1.83s/it]100%|██████████| 5/5 [00:09<00:00,  1.84s/it]100%|██████████| 5/5 [00:09<00:00,  1.83s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.174630 acc: 0.948733
+Global clean accuracy: 0.9562
+Global backdoor accuracy: 0.2277
+Round 5/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.81s/it] 40%|████      | 2/5 [00:03<00:05,  1.82s/it] 60%|██████    | 3/5 [00:05<00:03,  1.83s/it] 80%|████████  | 4/5 [00:07<00:01,  1.85s/it]100%|██████████| 5/5 [00:09<00:00,  1.86s/it]100%|██████████| 5/5 [00:09<00:00,  1.85s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.148392 acc: 0.956850
+Global clean accuracy: 0.9634
+Global backdoor accuracy: 0.2948
+Round 6/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.80s/it] 40%|████      | 2/5 [00:03<00:05,  1.81s/it] 60%|██████    | 3/5 [00:05<00:03,  1.81s/it] 80%|████████  | 4/5 [00:07<00:01,  1.81s/it]100%|██████████| 5/5 [00:09<00:00,  1.81s/it]100%|██████████| 5/5 [00:09<00:00,  1.81s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.117126 acc: 0.965433
+Global clean accuracy: 0.9737
+Global backdoor accuracy: 0.3125
+Round 7/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.81s/it] 40%|████      | 2/5 [00:03<00:05,  1.82s/it] 60%|██████    | 3/5 [00:05<00:03,  1.83s/it] 80%|████████  | 4/5 [00:07<00:01,  1.82s/it]100%|██████████| 5/5 [00:09<00:00,  1.82s/it]100%|██████████| 5/5 [00:09<00:00,  1.82s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.113626 acc: 0.967967
+Global clean accuracy: 0.9765
+Global backdoor accuracy: 0.4468
+Round 8/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.81s/it] 40%|████      | 2/5 [00:03<00:05,  1.82s/it] 60%|██████    | 3/5 [00:05<00:03,  1.83s/it] 80%|████████  | 4/5 [00:07<00:01,  1.83s/it]100%|██████████| 5/5 [00:09<00:00,  1.84s/it]100%|██████████| 5/5 [00:09<00:00,  1.83s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.094158 acc: 0.973817
+Global clean accuracy: 0.9771
+Global backdoor accuracy: 0.5765
+Round 9/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.86s/it] 40%|████      | 2/5 [00:03<00:05,  1.85s/it] 60%|██████    | 3/5 [00:05<00:03,  1.84s/it] 80%|████████  | 4/5 [00:07<00:01,  1.83s/it]100%|██████████| 5/5 [00:09<00:00,  1.83s/it]100%|██████████| 5/5 [00:09<00:00,  1.84s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.081056 acc: 0.975883
+Global clean accuracy: 0.9787
+Global backdoor accuracy: 0.6613
+Round 10/10: lr 0.01 results/case0_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01.pkl
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:01<00:07,  1.81s/it] 40%|████      | 2/5 [00:03<00:05,  1.82s/it] 60%|██████    | 3/5 [00:05<00:03,  1.83s/it] 80%|████████  | 4/5 [00:07<00:01,  1.84s/it]100%|██████████| 5/5 [00:09<00:00,  1.84s/it]100%|██████████| 5/5 [00:09<00:00,  1.83s/it]
+-----------client 0 starts training----------
+-----------client 1 starts training----------
+-----------client 2 starts training----------
+-----------client 3 starts training----------
+-----------client 4 starts training----------
+Train loss: 0.068851 acc: 0.979633
+Global clean accuracy: 0.9824
+Global backdoor accuracy: 0.7271
+Time 104.51296019554138
+[运行] /home/archlab/miniforge3/envs/fed/bin/python /home/archlab/xlq/fed-unlearn/case1.py --dataset mnist --num_rounds 10 --num_unlearn_rounds 5 --num_post_training_rounds 10 --is_onboarding true
+/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/art/estimators/speech_recognition/pytorch_deep_speech.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging  # type: ignore[attr-defined]
+Traceback (most recent call last):
+  File "/home/archlab/xlq/fed-unlearn/case1.py", line 119, in <module>
+    global_param = torch.load(
+  File "/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/torch/serialization.py", line 771, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/torch/serialization.py", line 270, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/archlab/miniforge3/envs/fed/lib/python3.9/site-packages/torch/serialization.py", line 251, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './results/models/case1/case1_mnist_C5_BS128_R10_UR5_PR10_E1_LR0.01_round24.pt'
+[错误] 运行 case1.py 失败，退出码 1
